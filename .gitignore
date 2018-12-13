@@ -1,4 +1,6 @@
 # Created by https://www.gitignore.io/api/android,osx,windows,linux,intellij,java
+#gradlew
+#gradlew.bat
 
 ### Android ###
 # Built application files
