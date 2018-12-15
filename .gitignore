@@ -2,6 +2,9 @@
 #gradlew
 #gradlew.bat
 
+# Pictures
+app/src/main/res/drawable/
+
 ### Android ###
 # Built application files
 *.apk

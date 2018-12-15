@@ -10,11 +10,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:textSize="32sp"
+        android:textColor="@android:color/black"
         android:text="@string/choose_the_teams_text" />
 
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="54dp"
         android:layout_gravity="center_horizontal">
 
         <RadioGroup
@@ -22,41 +25,46 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignLeft="@id/central_bar"
+            android:layout_marginLeft="32dp"
             android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/griffindor1_radio_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/griffindor"
+                android:layout_margin="8dp"
+                android:button="@drawable/gryffindor_small"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <RadioButton
                 android:id="@+id/ravenclaw1_radio_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/ravenclaw"
+                android:button="@drawable/ravenclaw_small"
+                android:layout_margin="8dp"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <RadioButton
                 android:id="@+id/slytherin1_radio_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/slytherin"
+                android:button="@drawable/slytherin_small"
+                android:layout_margin="8dp"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <RadioButton
                 android:id="@+id/hufflepuff1_radio_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/hufflepuff"
+                android:button="@drawable/hufflepuff_small"
+                android:layout_margin="8dp"
                 android:textAppearance="?android:textAppearanceMedium" />
         </RadioGroup>
 
         <ImageView
             android:id="@+id/central_bar"
-            android:layout_width="1dp"
-            android:layout_height="200dp"
+            android:layout_width="2dp"
+            android:layout_height="300dp"
             android:layout_centerHorizontal="true"
             android:background="@color/colorAccent" />
 
@@ -64,34 +72,39 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
+            android:layout_marginRight="32dp"
             android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/griffindor2_radio_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/griffindor"
+                android:layout_margin="8dp"
+                android:button="@drawable/gryffindor_small"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <RadioButton
                 android:id="@+id/ravenclaw2_radio_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/ravenclaw"
+                android:layout_margin="8dp"
+                android:button="@drawable/ravenclaw_small"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <RadioButton
                 android:id="@+id/slytherin2_radio_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/slytherin"
+                android:button="@drawable/slytherin_small"
+                android:layout_margin="8dp"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <RadioButton
                 android:id="@+id/hufflepuff2_radio_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/hufflepuff"
+                android:layout_margin="8dp"
+                android:button="@drawable/hufflepuff_small"
                 android:textAppearance="?android:textAppearanceMedium" />
         </RadioGroup>
     </RelativeLayout>
